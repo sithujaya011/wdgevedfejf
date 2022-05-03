@@ -2518,12 +2518,17 @@ JAYARATHNE_BOT-MD
 I'm always with you!! :-)
 
 type .menu for more details <3`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2782,12 +2787,17 @@ case 'grupmenu': {
   ➙ ${prefix}promote @user
   ➙ ${prefix}demote @user
   `
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2841,12 +2851,17 @@ case 'downloadmenu': {
 │
 └───────⭓
   `
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: okemenu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -2878,12 +2893,17 @@ case 'downloadmenu': {
   ➙ ${prefix}wikimedia [query]
   ➙ ${prefix}ytsearch [query]
   `
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3168,12 +3188,17 @@ case 'voicemenu': {
   ➙ ${prefix}slow
   ➙ ${prefix}squirrel
 `
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3202,12 +3227,17 @@ case 'religionmenukdksoejdjj': {
   ➙ ${prefix}alquran
   ➙ ${prefix}juzamma
   ➙ ${prefix}tafsirsurah`
-const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3260,12 +3290,17 @@ case 'horoscopemenukcodk': {
   ➙ ${prefix}fertiletime
   ➙ ${prefix}zodiac
   ➙ ${prefix}shio`
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3316,12 +3351,17 @@ case 'convertmenu': {
 │
 └───────⭓
   `
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+ let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3355,13 +3395,17 @@ case 'nocategorymenu': {
   ➙ ${prefix}listgc
   ➙ ${prefix}listonline
   ➙ ${prefix}report (report bug to owner)
-  `
-  const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+  `let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3494,12 +3538,17 @@ break
   ➙ ${prefix}bcgroup
   ➙ ${prefix}bcall
   `
-    const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+ let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3835,12 +3884,17 @@ break
 │◮ ${prefix}setexif
 │
 └───────⭓`
-    const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
-                    templateMessage: {
-                        hydratedTemplate: {
-                            hydratedContentText: anu,
-                            locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./XeonMedia/cheemspic.jpg')},
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./XeonMedia/cheemspic.jpg')}, { upload: XeonBotInc.waUploadToServer })
+
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+
+     templateMessage: {
+
+         hydratedTemplate: {
+
+           imageMessage: message.imageMessage,
+		 
+		 hydratedContentText: anu,
                             hydratedFooterText: `Jayarathne_Technical`,
                             hydratedButtons: [{
                                 urlButton: {
