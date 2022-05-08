@@ -94,9 +94,9 @@ Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURICom
                 if (anu.action == 'add') {
                     XeonBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}
 
-Welcome to Our Bot Group ! Type .cmd for command list and .yt <name/link> for yt download :-)
+Welcome to Our Group ! Type .cmd for command list and .yt <name/link> for yt download :-)
 
-*share us :- https://chat.whatsapp.com/JE6kSDzCnBr1xDJ9MVxaZ1
+*
 
 Description: ${metadata.desc} `} )
                 } else if (anu.action == 'remove') {
